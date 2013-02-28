@@ -1,0 +1,7 @@
+{
+    "name": "npr-news",
+    "version": "1.0.0",
+    "author": "Luke Berndt <luke@lukeberndt.com>",
+    "description": "Pulls Headlines from the NPR News API. You need to get an API key from them.",
+    "main": "./npr-news.js"
+}
