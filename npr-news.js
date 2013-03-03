@@ -19,7 +19,8 @@ module.exports = function(key) {
         });
 
         res.on('end', function() {
-            var obj = JSON.parse(output);
+            var obj = '{}';
+	    if (output) obj = JSON.parse(output);
             onResult(res.statusCode, obj);
         });
     });
